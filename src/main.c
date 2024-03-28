@@ -42,6 +42,18 @@ void motor_init() {
 	pwm_set_enabled(motor_slice, true);
 }
 
+void joystickY2MotorPwm(int8_t joy_in) {
+	uint16_t val = 31250 * (fabs(joy_in) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
+	printf("Motor PWM: %d (%lf%%)\n", val, val/31250);
+}
+
+void joystickX2ServoPwm(int8_t joy_in) {
+	uint16_t val = 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (fabs(joy_in) / MAX_JOY_Y));
+	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
+	printf("Servo PWM: %d (%lf%%)\n", val, val/31250);
+}
+
 int main() {
 	stdio_init_all();
 
@@ -50,11 +62,11 @@ int main() {
 
 	while(1) {
 		sleep_ms(1000);
-		pwm_set_gpio_level(SERVO_PWM_PIN, 2500);
-		printf("side one\n");
+		joystickX2ServoPwm(120);
+		joystickY2MotorPwm(120);
 		sleep_ms(1000);
-		pwm_set_gpio_level(SERVO_PWM_PIN, 1250);
-		printf("side two\n");
+		joystickX2ServoPwm(-50);
+		joystickY2MotorPwm(-50);
 	}
 }
 
