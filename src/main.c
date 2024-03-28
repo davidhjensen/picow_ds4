@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 #include "hardware/gpio.h"
 #include "hardware/pwm.h"
@@ -12,7 +13,13 @@
 #include "bt_hid.h"
 
 #define MOTOR_PWM_PIN 0
+#define MOTOR_LIMITTER 80 // capped at <>% of full power (100% duty)
+
 #define SERVO_PWM_PIN 2
+#define SERVO_LIMITTER 15 // +- degrees that the servo is capped at; MAX 90
+
+#define MAX_JOY_Y 128
+#define MAX_JOY_X 128
 
 uint servo_slice;
 uint motor_slice;
