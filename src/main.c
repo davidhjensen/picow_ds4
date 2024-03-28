@@ -13,13 +13,13 @@
 #include "bt_hid.h"
 
 #define MOTOR_PWM_PIN 0
-#define MOTOR_LIMITTER 80 // capped at <>% of full power (100% duty)
+#define MOTOR_LIMITTER 80.0 // capped at <>% of full power (100% duty)
 
 #define SERVO_PWM_PIN 2
-#define SERVO_LIMITTER 15 // +- degrees that the servo is capped at; MAX 90
+#define SERVO_LIMITTER 15.0 // +- degrees that the servo is capped at; MAX 90
 
-#define MAX_JOY_Y 128
-#define MAX_JOY_X 128
+#define MAX_JOY_Y 128.0
+#define MAX_JOY_X 128.0
 
 uint servo_slice;
 uint motor_slice;
@@ -50,13 +50,13 @@ void motor_init() {
 }
 
 void joystickY2MotorPwm(int8_t joy_in) {
-	uint16_t val = 31250 * (fabs(joy_in) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	uint16_t val = (int) 31250 * (fabs(joy_in) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	printf("Motor PWM: %d (%lf%%)\n", val, val/31250);
 }
 
 void joystickX2ServoPwm(int8_t joy_in) {
-	uint16_t val = 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (fabs(joy_in) / MAX_JOY_Y));
+	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (fabs(joy_in) / MAX_JOY_Y));
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	printf("Servo PWM: %d (%lf%%)\n", val, val/31250);
 }
