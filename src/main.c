@@ -52,13 +52,13 @@ void motor_init() {
 void joystickY2MotorPwm(int8_t joy_in) {
 	uint16_t val = (int) 31250 * (fabs(joy_in) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
-	printf("Motor PWM: %d (%lf%%)\n", val, val/31250);
+	printf("Motor PWM: %d (%.2lf%%)\n", val, val/31250);
 }
 
 void joystickX2ServoPwm(int8_t joy_in) {
 	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (fabs(joy_in) / MAX_JOY_Y));
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
-	printf("Servo PWM: %d (%lf%%)\n", val, val/31250);
+	printf("Servo PWM: %d (%.2lf%%)\n", val, val/31250);
 }
 
 int main() {
