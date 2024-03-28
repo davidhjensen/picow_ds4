@@ -1,0 +1,3 @@
+/home/dhjensen02/picow_ds4/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/dhjensen02/picow_ds4/build/pioasm/CMakeFiles/edit_cache.dir
+/home/dhjensen02/picow_ds4/build/pioasm/CMakeFiles/pioasm.dir
