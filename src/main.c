@@ -83,6 +83,7 @@ int main() {
 		printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 				state.buttons, state.lx, state.ly, state.rx, state.ry,
 				state.l2, state.r2, state.hat);
+	}
 	/*
 	while(1) {
 		sleep_ms(1000);
