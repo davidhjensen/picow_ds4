@@ -67,6 +67,23 @@ int main() {
 	motor_init();
 	servo_init();
 
+	sleep_ms(1000);
+	printf("Hello\n");
+
+	multicore_launch_core1(bt_main);
+	// Wait for init (should do a handshake with the fifo here?)
+	sleep_ms(1000);
+
+	struct bt_hid_state state;
+
+	for ( ;; ) {
+		sleep_ms(20);
+		bt_hid_get_latest(&state);
+		char buffer[100];
+		printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+				state.buttons, state.lx, state.ly, state.rx, state.ry,
+				state.l2, state.r2, state.hat);
+	/*
 	while(1) {
 		sleep_ms(1000);
 		joystickX2ServoPwm(120);
@@ -75,5 +92,6 @@ int main() {
 		joystickX2ServoPwm(-50);
 		joystickY2MotorPwm(-50);
 	}
+	*/
 }
 
