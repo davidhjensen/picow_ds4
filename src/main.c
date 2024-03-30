@@ -100,8 +100,8 @@ int main() {
 		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
 		//		state.l2, state.r2, state.hat);
-		joystickY2MotorPwm(state.rx);
-		joystickX2ServoPwm(state.ly);
+		joystickY2MotorPwm(state.ly);
+		joystickX2ServoPwm(state.rx);
 	}
 	/*
 	while(1) {
