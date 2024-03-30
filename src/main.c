@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
 
 #include "hardware/gpio.h"
 #include "hardware/pwm.h"
@@ -66,7 +65,7 @@ void servo_voltage_reg() {
 }
 
 void joystickY2MotorPwm(uint8_t joy_in) {
-	uint16_t val = (int) 31250 * (-(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	printf("Motor PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/31250);
 }
