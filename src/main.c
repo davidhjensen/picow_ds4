@@ -17,9 +17,14 @@
 
 #define SERVO_PWM_PIN 2
 #define SERVO_LIMITTER 15.0 // +- degrees that the servo is capped at; MAX 90
+#define SERVO_VOLTAGE_PIN 6 // output PWM to step ~12V down to ~6V
 
 #define MAX_JOY_Y 128.0
+#define JOY_Y_CENTER 128.0
+
 #define MAX_JOY_X 128.0
+#define JOY_X_CENTER 128.0
+
 
 uint servo_slice;
 uint motor_slice;
@@ -49,15 +54,26 @@ void motor_init() {
 	pwm_set_enabled(motor_slice, true);
 }
 
+void servo_voltage_reg() {
+	// servo pwm setup 
+	gpio_set_function(SERVO_VOLTAGE_PIN, GPIO_FUNC_PWM);
+	servo_voltage_slice = pwm_gpio_to_slice_num(SERVO_VOLTAGE_PIN);
+	// clk div down to 20kHz
+	pwm_set_wrap(servo_voltage_slice, 6250); 
+	// set to 5.088V = 12V * (2650 / 6250)
+	pwm_set_chan_level(servo_voltage_slice, 0, 2650);
+	pwm_set_enabled(servo_voltage_slice, true);
+}
+
 void joystickY2MotorPwm(int8_t joy_in) {
-	uint16_t val = (int) 31250 * (fabs(joy_in) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
-	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
+	uint16_t val = (int) 31250 * (joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	printf("Motor PWM: %d (%.2f%%)\n", val, 100.0*val/31250);
 }
 
 void joystickX2ServoPwm(int8_t joy_in) {
-	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * joy_in / MAX_JOY_Y);
-	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
+	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
+	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	printf("Servo PWM: %d (%.2f%%)\n", val, 100.0*val/25000);
 }
 
@@ -65,6 +81,7 @@ int main() {
 	stdio_init_all();
 
 	motor_init();
+	servo_voltage_reg();
 	servo_init();
 
 	sleep_ms(1000);
@@ -77,12 +94,14 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(20);
+		sleep_ms(500);
 		bt_hid_get_latest(&state);
 		char buffer[100];
-		printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
-				state.buttons, state.lx, state.ly, state.rx, state.ry,
-				state.l2, state.r2, state.hat);
+		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
+		//		state.l2, state.r2, state.hat);
+		joystickY2MotorPwm(state.rx);
+		joystickX2ServoPwm(state.ly);
 	}
 	/*
 	while(1) {
@@ -97,4 +116,3 @@ int main() {
 	}
 	*/
 }
-
