@@ -66,15 +66,15 @@ void servo_voltage_reg() {
 }
 
 void joystickY2MotorPwm(int8_t joy_in) {
-	uint16_t val = (int) 31250 * ((joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	uint16_t val = (int) 31250 * (-(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
-	printf("Motor PWM: %d (%.2f%%)\n", val, 100.0*val/31250);
+	printf("Motor PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/31250);
 }
 
 void joystickX2ServoPwm(int8_t joy_in) {
 	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
 	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
-	printf("Servo PWM: %d (%.2f%%)\n", val, 100.0*val/25000);
+	printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
 int main() {
