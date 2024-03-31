@@ -70,8 +70,9 @@ void servo_voltage_reg() {
 	// servo pwm setup 
 	gpio_set_function(SERVO_VOLTAGE_PIN, GPIO_FUNC_PWM);
 	servo_voltage_slice = pwm_gpio_to_slice_num(SERVO_VOLTAGE_PIN);
-	// clk div down to 10kHz
+	// clk div down to 1kHz
 	pwm_set_wrap(servo_voltage_slice, 12500); 
+	pwm_set_clk_div(servo_voltage_slice, 10);
 	// set to around 5V (12V * 4000/12500)
 	pwm_set_chan_level(servo_voltage_slice, 0, 3000);
 	pwm_set_enabled(servo_voltage_slice, true);
