@@ -17,6 +17,10 @@
 #define MOTOR_EN_1 16
 #define MOTOR_EN_2 17
 
+#define MAX_JOY_Y 128.0
+#define JOY_Y_CENTER 128.0
+#define JOY_Y_BUFFER 20 // necessary deviation from center to activate motor
+
 uint motor_slice;
 
 uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
