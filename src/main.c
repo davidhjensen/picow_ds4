@@ -79,13 +79,13 @@ void servo_voltage_reg() {
 
 uint joystickY2MotorPwm(uint8_t joy_in, uint motor_dir_status) {
 	// if it should be stopped
-	if((motor_dir_status != 0) && (val <= JOY_Y_CENTER + JOY_Y_BUFFER) && (val >= JOY_Y_CENTER - JOY_Y_BUFFER)) {
+	if((motor_dir_status != 0) && (joy_in <= JOY_Y_CENTER + JOY_Y_BUFFER) && (joy_in >= JOY_Y_CENTER - JOY_Y_BUFFER)) {
 		gpio_put(MOTOR_EN_1, 0);
 		gpio_put(MOTOR_EN_2, 0);
 		motor_dir_status = 0;
 
 	// if it should be forward
-	} else if((motor_dir_status != 1) && (val > JOY_Y_CENTER + JOY_Y_BUFFER)) {
+	} else if((motor_dir_status != 1) && (joy_in > JOY_Y_CENTER + JOY_Y_BUFFER)) {
 		gpio_put(MOTOR_EN_1, 0);
 		gpio_put(MOTOR_EN_2, 1);
 		motor_dir_status = 1;
