@@ -19,6 +19,8 @@
 
 uint motor_slice;
 
+uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
+
 void motor_init() {
 	// motor pwm setup
 	gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
