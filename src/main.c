@@ -55,7 +55,7 @@ void motor_init() {
 	pwm_set_wrap(motor_slice, 31250); 
 	pwm_set_clkdiv(motor_slice, 4);
 	// set to still
-	pwm_set_chan_level(motor_slice, 0, 31250/5);
+	pwm_set_chan_level(motor_slice, 0, 0);
 	pwm_set_enabled(motor_slice, true);
 	// motor direction setup and set to stop
 	gpio_init(MOTOR_EN_1);
@@ -129,7 +129,7 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(500);
+		sleep_ms(20);
 		bt_hid_get_latest(&state);
 		char buffer[100];
 		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
