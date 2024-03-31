@@ -12,12 +12,12 @@
 
 #include "bt_hid.h"
 
-#define MOTOR_PWM_PIN 0
+#define MOTOR_PWM_PIN 18
 #define MOTOR_LIMITTER 80.0 // capped at <>% of full power (100% duty)
-#define MOTOR_EN_1 8
-#define MOTOR_EN_2 9
+#define MOTOR_EN_1 16
+#define MOTOR_EN_2 17
 
-#define SERVO_PWM_PIN 2
+#define SERVO_PWM_PIN 0
 #define SERVO_LIMITTER 15.0 // +- degrees that the servo is capped at; MAX 90
 #define SERVO_VOLTAGE_PIN 6 // output PWM to step ~12V down to ~6V
 
@@ -73,7 +73,7 @@ void servo_voltage_reg() {
 	// clk div down to 10kHz
 	pwm_set_wrap(servo_voltage_slice, 12500); 
 	// set to around 5V (12V * 4000/12500)
-	pwm_set_chan_level(servo_voltage_slice, 0, 4000);
+	pwm_set_chan_level(servo_voltage_slice, 0, 3000);
 	pwm_set_enabled(servo_voltage_slice, true);
 }
 
