@@ -29,8 +29,8 @@ void motor_init() {
 	// motor pwm setup
 	gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
 	motor_slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
-	// clk div down to 250Hz (period is 62500 counts) (clock is 125x10^6/4)
-	pwm_set_wrap(motor_slice, 62499); 
+	// clk div down to 500Hz (period is 31250 counts) (clock is 125x10^6/4)
+	pwm_set_wrap(motor_slice, 31249); 
 	pwm_set_clkdiv(motor_slice, 8);
 	// set to still
 	pwm_set_chan_level(motor_slice, 0, 0);
