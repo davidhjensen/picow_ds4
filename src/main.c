@@ -14,6 +14,8 @@
 
 #define MOTOR_PWM_PIN 0
 #define MOTOR_LIMITTER 80.0 // capped at <>% of full power (100% duty)
+#define MOTOR_EN_1 8
+#define MOTOR_EN_2 9
 
 #define SERVO_PWM_PIN 2
 #define SERVO_LIMITTER 15.0 // +- degrees that the servo is capped at; MAX 90
@@ -21,14 +23,17 @@
 
 #define MAX_JOY_Y 128.0
 #define JOY_Y_CENTER 128.0
+#define JOY_Y_BUFFER 10 // necessary deviation from center to activate motor
 
 #define MAX_JOY_X 128.0
 #define JOY_X_CENTER 128.0
 
 
 uint servo_slice;
-uint motor_slice;
 uint servo_voltage_slice;
+uint motor_slice;
+
+uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
 
 void servo_init() {
 	// servo pwm setup 
@@ -52,6 +57,13 @@ void motor_init() {
 	// set to still
 	pwm_set_chan_level(motor_slice, 0, 31250/5);
 	pwm_set_enabled(motor_slice, true);
+	// motor direction setup and set to stop
+	gpio_init(MOTOR_EN_1);
+	gpio_init(MOTOR_EN_2);
+	gpio_set_dir(MOTOR_EN_1, GPIO_OUT);
+	gpio_set_dir(MOTOR_EN_2, GPIO_OUT);
+	gpio_put(MOTOR_EN_1, 0);
+	gpio_put(MOTOR_EN_2, 0);
 }
 
 void servo_voltage_reg() {
@@ -65,10 +77,33 @@ void servo_voltage_reg() {
 	pwm_set_enabled(servo_voltage_slice, true);
 }
 
-void joystickY2MotorPwm(uint8_t joy_in) {
+uint joystickY2MotorPwm(uint8_t joy_in, uint motor_dir_status) {
+	// if it should be stopped
+	if((motor_dir_status != 0) && (val <= JOY_Y_CENTER + JOY_Y_BUFFER) && (val >= JOY_Y_CENTER - JOY_Y_BUFFER)) {
+		gpio_put(MOTOR_EN_1, 0);
+		gpio_put(MOTOR_EN_2, 0);
+		motor_dir_status = 0;
+
+	// if it should be forward
+	} else if((motor_dir_status != 1) && (val > JOY_Y_CENTER + JOY_Y_BUFFER)) {
+		gpio_put(MOTOR_EN_1, 0);
+		gpio_put(MOTOR_EN_2, 1);
+		motor_dir_status = 1;
+		
+	// if it should be backward
+	} else if(motor_dir_status != 2) {
+		gpio_put(MOTOR_EN_1, 1);
+		gpio_put(MOTOR_EN_2, 0);
+		motor_dir_status = 2;
+	}
+
+	// convert to PWM duty and set
 	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
-	//pwm_set_gpio_level(MOTOR_PWM_PIN, val);
-	printf("Motor PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/31250);
+	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
+	
+	//printf("Motor PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/31250);
+
+	return motor_dir_status;
 }
 
 void joystickX2ServoPwm(uint8_t joy_in) {
@@ -100,7 +135,7 @@ int main() {
 		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
 		//		state.l2, state.r2, state.hat);
-		joystickY2MotorPwm(state.ly);
+		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 	}
 	/*
