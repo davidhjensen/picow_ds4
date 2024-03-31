@@ -29,8 +29,8 @@ void motor_init() {
 	// motor pwm setup
 	gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
 	motor_slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
-	// clk div down to 500Hz (period is 31250 counts) (clock is 125x10^6/4)
-	pwm_set_wrap(motor_slice, 31249); 
+	// clk div down to 250Hz (period is 62500 counts) (clock is 125x10^6/4)
+	pwm_set_wrap(motor_slice, 62499); 
 	pwm_set_clkdiv(motor_slice, 8);
 	// set to still
 	pwm_set_chan_level(motor_slice, 0, 0);
@@ -65,7 +65,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	}
 
 	// convert to PWM duty and set
-	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	uint16_t val = (int) 62500 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	
 	printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
@@ -84,9 +84,9 @@ int main() {
 	while(1) {
 		sleep_ms(1000);
 		printf("%c", 12);
-		motor_dir_status = joystickY2MotorPwm(100, motor_dir_status);
+		motor_dir_status = joystickY2MotorPwm(200, motor_dir_status);
 		sleep_ms(1000);
 		printf("%c", 12);
-		motor_dir_status = joystickY2MotorPwm(-100, motor_dir_status);
+		motor_dir_status = joystickY2MotorPwm(40, motor_dir_status);
 	}
 }
