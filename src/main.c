@@ -51,7 +51,7 @@ void motor_init() {
 	// motor pwm setup
 	gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
 	motor_slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
-	// clk div down to 500 Hz (period is 31250 counts) (clock is 125x10^6/4)
+	// clk div down to 500Hz (period is 31250 counts) (clock is 125x10^6/4)
 	pwm_set_wrap(motor_slice, 31249); 
 	pwm_set_clkdiv(motor_slice, 8);
 	// set to still
@@ -104,7 +104,6 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
 
 	return dir_stat;
-}
 
 void joystickX2ServoPwm(uint8_t joy_in) {
 	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
