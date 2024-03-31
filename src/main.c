@@ -129,7 +129,7 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(100);
+		sleep_ms(1);
 		bt_hid_get_latest(&state);
 		char buffer[100];
 		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
