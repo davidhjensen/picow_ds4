@@ -23,7 +23,7 @@
 
 #define MAX_JOY_Y 128.0
 #define JOY_Y_CENTER 128.0
-#define JOY_Y_BUFFER 10 // necessary deviation from center to activate motor
+#define JOY_Y_BUFFER 20 // necessary deviation from center to activate motor
 
 #define MAX_JOY_X 128.0
 #define JOY_X_CENTER 128.0
@@ -85,13 +85,13 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 		dir_stat = 0;
 
 	// if it should be forward
-	} else if((dir_stat != 1) && (joy_in > JOY_Y_CENTER + JOY_Y_BUFFER)) {
+	} else if((dir_stat != 1) && (joy_in < JOY_Y_CENTER - JOY_Y_BUFFER)) {
 		gpio_put(MOTOR_EN_1, 0);
 		gpio_put(MOTOR_EN_2, 1);
 		dir_stat = 1;
 		
 	// if it should be backward
-	} else if(dir_stat != 2) {
+	} else if((dir_stat != 2) && (joy_in > JOY_Y_CENTER + JOY_Y_BUFFER)) {
 		gpio_put(MOTOR_EN_1, 1);
 		gpio_put(MOTOR_EN_2, 0);
 		dir_stat = 2;
