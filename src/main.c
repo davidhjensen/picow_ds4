@@ -159,7 +159,7 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(100);
+		sleep_ms(2000);
 		bt_hid_get_latest(&state);
 		//printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
