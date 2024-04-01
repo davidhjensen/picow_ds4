@@ -161,7 +161,7 @@ int main() {
 	for ( ;; ) {
 		sleep_ms(2000);
 		bt_hid_get_latest(&state);
-		printf(buffer, "buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+		printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 				state.buttons, state.lx, state.ly, state.rx, state.ry,
 				state.l2, state.r2, state.hat);
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
