@@ -12,6 +12,8 @@
 
 #include "bt_hid.h"
 
+#include "dht20-pico/DHT20.h"
+
 DHT20 sens;
 DHT20 *sens_ptr = &sens;
 
