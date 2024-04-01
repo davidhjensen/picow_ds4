@@ -127,7 +127,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 void joystickX2ServoPwm(uint8_t joy_in) {
 	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
 	pwm_set_gpio_level(SERVO_PWM_PIN, val);
-	//printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
+	printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
 int main() {
@@ -159,7 +159,7 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(100);
+		sleep_ms(500);
 		bt_hid_get_latest(&state);
 		//printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
