@@ -136,7 +136,7 @@ int main() {
 	motor_init();
 	servo_voltage_reg();
 	servo_init();
-	sensor_init();
+	/*sensor_init();
 
 	printf("Initialize DHT20.\n");
     int sensor_ret = DHT20_init(sens_ptr);
@@ -147,6 +147,7 @@ int main() {
         return sensor_ret;
     }
     printf("Initialized DHT20.\n");
+	*/
 
 	sleep_ms(1000);
 
@@ -165,6 +166,7 @@ int main() {
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
+		/*
 		int ret = getMeasurement(sens_ptr);
         if (ret != DHT20_OK)
         {
@@ -177,7 +179,8 @@ int main() {
             printf("--- Temperature: %5.2f C°", getTemperature(sens_ptr));
             printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
         }
-
+		*/
+	
 		printf("%c", 12);
 
 	}
