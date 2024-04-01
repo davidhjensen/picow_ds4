@@ -9,6 +9,7 @@
 #include "hardware/pwm.h"
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
+#include "pico/binary_info.h"
 
 #include "bt_hid.h"
 
