@@ -119,7 +119,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	
-	printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
+	//printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
 
 	return dir_stat;
 }
@@ -127,7 +127,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 void joystickX2ServoPwm(uint8_t joy_in) {
 	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
 	pwm_set_gpio_level(SERVO_PWM_PIN, val);
-	printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
+	//printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
 int main() {
@@ -161,9 +161,9 @@ int main() {
 	for ( ;; ) {
 		sleep_ms(100);
 		bt_hid_get_latest(&state);
-		printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
-				state.buttons, state.lx, state.ly, state.rx, state.ry,
-				state.l2, state.r2, state.hat);
+		//printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
+		//		state.l2, state.r2, state.hat);
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
@@ -180,10 +180,7 @@ int main() {
 				printf("--- Temperature: %5.2f C°", getTemperature(sens_ptr));
 				printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
 			}
-		}		
-
-		printf("%c", 12);
-
+		}
 	}
 	/*
 	while(1) {
