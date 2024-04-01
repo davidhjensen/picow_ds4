@@ -164,10 +164,10 @@ int main() {
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
-		ret = getMeasurement(sens_ptr);
+		int ret = getMeasurement(sens_ptr);
         if (ret != DHT20_OK)
         {
-            printf("Measurement %d failed with error value %d\n", count, ret);
+            printf("Measurement failed with error value %d\n", ret);
             printf("Trying again after 10s...\n");
         }
         else
