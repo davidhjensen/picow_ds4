@@ -30,6 +30,8 @@ void sensor_init() {
 
 int main() {
 
+	stdio_init_all();
+
 	sensor_init();
 
 	printf("Initialize DHT20.\n");
