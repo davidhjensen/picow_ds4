@@ -167,7 +167,7 @@ int main() {
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
-		if(state.buttons == 0x200) {
+		if(state.buttons == 0x2000) {
 			int ret = getMeasurement(sens_ptr);
 			if (ret != DHT20_OK)
 			{
