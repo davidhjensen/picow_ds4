@@ -83,18 +83,6 @@ void motor_init() {
 	gpio_put(MOTOR_EN_2, 0);
 }
 
-void servo_voltage_reg() {
-	// servo pwm setup 
-	gpio_set_function(SERVO_VOLTAGE_PIN, GPIO_FUNC_PWM);
-	servo_voltage_slice = pwm_gpio_to_slice_num(SERVO_VOLTAGE_PIN);
-	// clk div down to 1kHz
-	pwm_set_wrap(servo_voltage_slice, 12500); 
-	pwm_set_clkdiv(servo_voltage_slice, 10);
-	// set to around 5V (12V * 4000/12500)
-	pwm_set_chan_level(servo_voltage_slice, 0, 1000);
-	pwm_set_enabled(servo_voltage_slice, true);
-}
-
 uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	// if it should be stopped
 	if((dir_stat != 0) && (joy_in <= JOY_Y_CENTER + JOY_Y_BUFFER) && (joy_in >= JOY_Y_CENTER - JOY_Y_BUFFER)) {
@@ -134,7 +122,6 @@ int main() {
 	stdio_init_all();
 
 	motor_init();
-	servo_voltage_reg();
 	servo_init();
 	sensor_init();
 
@@ -159,7 +146,7 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(500);
+		sleep_ms(100);
 		bt_hid_get_latest(&state);
 		//printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
 		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
