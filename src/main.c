@@ -182,16 +182,4 @@ int main() {
 			}
 		}
 	}
-	/*
-	while(1) {
-		sleep_ms(1000);
-		printf("%c", 12);
-		joystickX2ServoPwm(120);
-		joystickY2MotorPwm(120);
-		sleep_ms(1000);
-		printf("%c", 12);
-		joystickX2ServoPwm(-50);
-		joystickY2MotorPwm(-50);
-	}
-	*/
 }
