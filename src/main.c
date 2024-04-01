@@ -136,8 +136,9 @@ int main() {
 	motor_init();
 	servo_voltage_reg();
 	servo_init();
-	/*sensor_init();
+	sensor_init();
 
+	/*
 	printf("Initialize DHT20.\n");
     int sensor_ret = DHT20_init(sens_ptr);
     if (sensor_ret != DHT20_OK)
@@ -180,7 +181,7 @@ int main() {
             printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
         }
 		*/
-	
+
 		printf("%c", 12);
 
 	}
