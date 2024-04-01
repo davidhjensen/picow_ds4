@@ -148,7 +148,7 @@ int main() {
         printf("Sensor return value %d\n", sensor_ret);
     }
     printf("Initialized DHT20.\n");
-	*/
+	
 
 	sleep_ms(1000);
 
