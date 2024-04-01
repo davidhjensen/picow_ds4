@@ -91,7 +91,7 @@ void servo_voltage_reg() {
 	pwm_set_wrap(servo_voltage_slice, 12500); 
 	pwm_set_clkdiv(servo_voltage_slice, 10);
 	// set to around 5V (12V * 4000/12500)
-	pwm_set_chan_level(servo_voltage_slice, 0, 3000);
+	pwm_set_chan_level(servo_voltage_slice, 0, 1000);
 	pwm_set_enabled(servo_voltage_slice, true);
 }
 
