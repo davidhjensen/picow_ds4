@@ -4,7 +4,7 @@ add_executable(picow_ds4
 )
 
 pico_enable_stdio_usb(picow_ds4 1)
-pico_enable_stdio_uart(picow_ds4 1)
+pico_enable_stdio_uart(picow_ds4 0)
 pico_enable_stdio_semihosting(picow_ds4 0)
 
 add_subdirectory("dht20-pico")
