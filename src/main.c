@@ -177,7 +177,7 @@ int main() {
 		} if (state.hat == 4 && motor_limiter >=2) { // decrease max power on down d pad
 			motor_limiter -= 2;
 			printf("Power decreased 2%%\n");
-		} if (state.hat == 2 && servo_limiter >= 1) { // incrase turning radius on right d pad
+		} if (state.hat == 2 && servo_limiter <= 44) { // incrase turning radius on right d pad
 			servo_limiter += 1;
 			printf("Turning radius increased 1deg\n");
 		} if (state.hat == 6 && servo_limiter >= 1) { // decrease turning radius on left d pad
