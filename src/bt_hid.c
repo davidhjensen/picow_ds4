@@ -63,7 +63,7 @@
 // Knockoff DS4
 //static const char * remote_addr_string = "A5:15:66:8E:91:3B";
 // Brian C Knockoff DS4
-static const char * remote_addr_string = "8C:41:F2:D0:32:43";
+static const char * remote_addr_string = "40:1B:5F:BF:71:DF";
 
 static bd_addr_t remote_addr;
 static bd_addr_t connected_addr;
