@@ -184,10 +184,10 @@ int main() {
 			servo_limiter -= 1;
 			printf("Turning radius decreased 1deg");
 		} if (state.buttons == 1 && servo_center >= .027) { // trim left on L1
-			servo_limiter -= .002;
+			servo_center -= .002;
 			printf("Steering trimmed left");
 		} if (state.buttons == 2 && servo_center <= .123) { // trim right on R1
-			servo_limiter += .002;
+			servo_center += .002;
 			printf("Steering trimmed right");
 		} if (state.buttons == 0x0020) { // print out current settings on options
 			printf("----------CURRENT SETTINGS----------\n");
