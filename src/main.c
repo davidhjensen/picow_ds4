@@ -191,7 +191,7 @@ int main() {
 			printf("Steering trimmed right");
 		} if (state.buttons == 0x0020) { // print out current settings on options
 			printf("----------CURRENT SETTINGS----------\n");
-			printf("Power: %f%%\nSteering Angle: %.2fdeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (.075-servo_center)/.05*90);
+			printf("Power: %d%%\nTurning Angle: %ddeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (.075-servo_center)/.05*90);
 		} if (state.buttons == 0x0010) { // print out data on share
 			// TODO
 			// print_data();
