@@ -173,25 +173,25 @@ int main() {
 			}
 		} if (state.hat == 0 && motor_limiter <=98) { // increase max power on up d pad
 			motor_limiter += 2;
-			printf("Power increased 2%%");
+			printf("Power increased 2%%\n");
 		} if (state.hat == 4 && motor_limiter >=2) { // decrease max power on down d pad
 			motor_limiter -= 2;
-			printf("Power decreased 2%%");
+			printf("Power decreased 2%%\n");
 		} if (state.hat == 2 && servo_limiter >= 1) { // incrase turning radius on right d pad
 			servo_limiter += 1;
-			printf("Turning radius increased 1deg");
+			printf("Turning radius increased 1deg\n");
 		} if (state.hat == 6 && servo_limiter >= 1) { // decrease turning radius on left d pad
 			servo_limiter -= 1;
-			printf("Turning radius decreased 1deg");
-		} if (state.buttons == 1 && servo_center >= .027) { // trim left on L1
+			printf("Turning radius decreased 1deg\n");
+		} if (state.buttons == 2 && servo_center >= .027) { // trim left on L1
 			servo_center -= .002;
-			printf("Steering trimmed left");
-		} if (state.buttons == 2 && servo_center <= .123) { // trim right on R1
+			printf("Steering trimmed left\n");
+		} if (state.buttons == 1 && servo_center <= .123) { // trim right on R1
 			servo_center += .002;
-			printf("Steering trimmed right");
+			printf("Steering trimmed right\n");
 		} if (state.buttons == 0x0020) { // print out current settings on options
 			printf("----------CURRENT SETTINGS----------\n");
-			printf("Power: %d%%\nTurning Angle: %ddeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (.075-servo_center)/.05*90);
+			printf("Power: %d%%\nTurning Angle: %ddeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (.075-servo_center)/.05*45);
 		} if (state.buttons == 0x0010) { // print out data on share
 			// TODO
 			// print_data();
