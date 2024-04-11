@@ -151,9 +151,10 @@ int main() {
 	for ( ;; ) {
 		sleep_ms(1000);
 		bt_hid_get_latest(&state);
-		printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
-				state.buttons, state.lx, state.ly, state.rx, state.ry,
-				state.l2, state.r2, state.hat);
+		//printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
+		//		state.l2, state.r2, state.hat);
+		
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
@@ -170,22 +171,28 @@ int main() {
 				printf("--- Temperature: %5.2f C°", getTemperature(sens_ptr));
 				printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
 			}
-		} /*else if (state.buttons == FORWARD ON D PAD && motor_limitter <=98) { // increase max power
+		} else if (state.hat == 0 && motor_limitter <=98) { // increase max power on up d pad
 			motor_limitter += 2;
-		} else if (state.buttons == BACKWARD ON D PAD && motor_limitter >=2) { // decrease max power
+		} else if (state.hat == 4 && motor_limitter >=2) { // decrease max power on down d pad
 			motor_limitter -= 2;
-		} else if (state.buttons == LEFT ON D PAD && servo_limitter >= 1) { // incrase turning radius
+		} else if (state.hat == 2 && servo_limitter >= 1) { // incrase turning radius on right d pad
 			servo_limitter += 1;
-		} else if (state.buttons == LEFT ON D PAD && servo_limitter >= 1) { // decrease turning radius
+		} else if (state.hat == 6 && servo_limitter >= 1) { // decrease turning radius on left d pad
 			servo_limitter -= 1;
-		} else if (state.buttons == L2 && servo_center >= .027) { // trim left
+		} else if (state.buttons == 1 && servo_center >= .027) { // trim left on L1
 			servo_limitter -= .002;
-		} else if (state.buttons == R2 && servo_center <= .123) { // trim right
+		} else if (state.buttons == 2 && servo_center <= .123) { // trim right on R1
 			servo_limitter += .002;
-		} else if (state.buttons == OPTIONS) { // print out current settings
+		} else if (state.buttons == 0x0020) { // print out current settings on options
 			printf("----------CURRENT SETTINGS----------\n");
 			printf("Power: %f%%\nSteering Angle: %.2fdeg\nSteering Trim: %+.2f\n", motor_limitter, servo_limitter, (.075-servo_center)/.05*90)
+		} else if (state.buttons == 0x0010) { // print out data on share
+			// TODO
+			// print_data();
+		} else if (state.buttons == 0x0100) { // print out button mapping on PS4
+			printf("----------BUTTON MAPPING----------\n");
+			printf("Left Joystick: Motor\nRight Joystick: Steering\nD Pad:\tUp/Down->Inc/Dec Max Power\n\tRight/Left->Inc/Dec Turning Radius\n");
+			printf("L1: Trim Steering Left\nR1: Trim Steering Right\nShare: Print Recorded Data\nOptions: Print Current Settings\nPS4: Print Button Mapping\n\n");
 		}
-		*/
 	}
 }
