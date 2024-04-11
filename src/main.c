@@ -172,30 +172,39 @@ int main() {
 				printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
 			}
 		} if (state.hat == 0 && motor_limiter <=98) { // increase max power on up d pad
+			printf("%c", 12);
 			motor_limiter += 2;
 			printf("Power increased 2%%\n");
 		} if (state.hat == 4 && motor_limiter >=2) { // decrease max power on down d pad
+			printf("%c", 12);
 			motor_limiter -= 2;
 			printf("Power decreased 2%%\n");
 		} if (state.hat == 2 && servo_limiter <= 44) { // incrase turning radius on right d pad
+			printf("%c", 12);
 			servo_limiter += 1;
 			printf("Turning radius increased 1deg\n");
 		} if (state.hat == 6 && servo_limiter >= 1) { // decrease turning radius on left d pad
+			printf("%c", 12);
 			servo_limiter -= 1;
 			printf("Turning radius decreased 1deg\n");
-		} if (state.buttons == 2 && servo_center >= .027) { // trim left on L1
+		} if (state.buttons == 1 && servo_center >= .027) { // trim left on L1
+			printf("%c", 12);
 			servo_center -= .002;
 			printf("Steering trimmed left\n");
-		} if (state.buttons == 1 && servo_center <= .123) { // trim right on R1
+		} if (state.buttons == 2 && servo_center <= .123) { // trim right on R1
+			printf("%c", 12);
 			servo_center += .002;
 			printf("Steering trimmed right\n");
 		} if (state.buttons == 0x0020) { // print out current settings on options
+			printf("%c", 12);
 			printf("----------CURRENT SETTINGS----------\n");
-			printf("Power: %d%%\nTurning Angle: %ddeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (.075-servo_center)/.05*45);
+			printf("Power: %d%%\nTurning Angle: %ddeg\nSteering Trim: %+.2f\n", motor_limiter, servo_limiter, (servo_center-.075)/.05*45);
 		} if (state.buttons == 0x0010) { // print out data on share
+			printf("%c", 12);
 			// TODO
 			// print_data();
 		} if (state.buttons == 0x0100) { // print out button mapping on PS4
+			printf("%c", 12);
 			printf("----------BUTTON MAPPING----------\n");
 			printf("Left Joystick: Motor\nRight Joystick: Steering\nD Pad:\tUp/Down->Inc/Dec Max Power\n\tRight/Left->Inc/Dec Turning Radius\n");
 			printf("L1: Trim Steering Left\nR1: Trim Steering Right\nShare: Print Recorded Data\nOptions: Print Current Settings\nPS4: Print Button Mapping\n\n");
