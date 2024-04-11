@@ -17,12 +17,10 @@
 
 
 #define MOTOR_PWM_PIN 18
-#define MOTOR_LIMITTER 80.0 // capped at <>% of full power (100% duty)
 #define MOTOR_EN_1 16
 #define MOTOR_EN_2 17
 
 #define SERVO_PWM_PIN 0
-#define SERVO_LIMITTER 15.0 // +- degrees that the servo is capped at; MAX 90
 #define SERVO_VOLTAGE_PIN 6 // output PWM to step ~12V down to ~6V
 
 #define MAX_JOY_Y 128.0
@@ -36,6 +34,11 @@
 uint servo_slice;
 uint servo_voltage_slice;
 uint motor_slice;
+
+uint motor_limmitter = 80; // capped at <>% of full power (100% duty)
+uint servo_limmitter = 15; // +- degrees that the servo is capped at; MAX 90
+
+double servo_center = .075; // set servo center to 7.5%
 
 uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
 
@@ -104,7 +107,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	}
 
 	// convert to PWM duty and set
-	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * MOTOR_LIMITTER / 100;
+	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * motor_limitter / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	
 	//printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
@@ -113,9 +116,9 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 }
 
 void joystickX2ServoPwm(uint8_t joy_in) {
-	uint16_t val = (int) 25000 * (.075 + .05 * (SERVO_LIMITTER/90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
+	uint16_t val = (int) 25000 * (servo_center + .05 * (servo_limitter / 90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
 	pwm_set_gpio_level(SERVO_PWM_PIN, val);
-	printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
+	//printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
 int main() {
@@ -146,11 +149,11 @@ int main() {
 	struct bt_hid_state state;
 
 	for ( ;; ) {
-		sleep_ms(100);
+		sleep_ms(1000);
 		bt_hid_get_latest(&state);
-		//printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
-		//		state.buttons, state.lx, state.ly, state.rx, state.ry,
-		//		state.l2, state.r2, state.hat);
+		printf("buttons: %04x, l: %d,%d, r: %d,%d, l2,r2: %d,%d hat: %d\n",
+				state.buttons, state.lx, state.ly, state.rx, state.ry,
+				state.l2, state.r2, state.hat);
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
@@ -167,6 +170,22 @@ int main() {
 				printf("--- Temperature: %5.2f C°", getTemperature(sens_ptr));
 				printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
 			}
+		} /*else if (state.buttons == FORWARD ON D PAD && motor_limitter <=98) { // increase max power
+			motor_limitter += 2;
+		} else if (state.buttons == BACKWARD ON D PAD && motor_limitter >=2) { // decrease max power
+			motor_limitter -= 2;
+		} else if (state.buttons == LEFT ON D PAD && servo_limitter >= 1) { // incrase turning radius
+			servo_limitter += 1;
+		} else if (state.buttons == LEFT ON D PAD && servo_limitter >= 1) { // decrease turning radius
+			servo_limitter -= 1;
+		} else if (state.buttons == L2 && servo_center >= .027) { // trim left
+			servo_limitter -= .002;
+		} else if (state.buttons == R2 && servo_center <= .123) { // trim right
+			servo_limitter += .002;
+		} else if (state.buttons == OPTIONS) { // print out current settings
+			printf("----------CURRENT SETTINGS----------\n");
+			printf("Power: %f%%\nSteering Angle: %.2fdeg\nSteering Trim: %+.2f\n", motor_limitter, servo_limitter, (.075-servo_center)/.05*90)
 		}
+		*/
 	}
 }
