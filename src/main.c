@@ -30,6 +30,8 @@
 #define MAX_JOY_X 128.0
 #define JOY_X_CENTER 128.0
 
+#define RECORDED_POINTS 20
+#define DATA_LENGTH 200
 
 uint servo_slice;
 uint servo_voltage_slice;
@@ -41,6 +43,9 @@ uint servo_limiter = 15; // +- degrees that the servo is capped at; MAX 90
 double servo_center = .075; // set servo center to 7.5%
 
 uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
+
+char stored_data[RECORDED_POINTS][DATA_LENGTH];
+uint stored_data_insert = 0;
 
 DHT20 sens;
 DHT20 *sens_ptr = &sens;
@@ -121,6 +126,11 @@ void joystickX2ServoPwm(uint8_t joy_in) {
 	//printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
+void print_data() {
+	printf("--------------------COLLECTED DATA--------------------\n");
+	printf("%15s%15s%15s\n", "test1", "test2", "test3");
+}
+
 int main() {
 	stdio_init_all();
 
@@ -162,15 +172,19 @@ int main() {
 			int ret = getMeasurement(sens_ptr);
 			if (ret != DHT20_OK)
 			{
-				printf("Measurement failed with error value %d\n", ret);
-				printf("Trying again after 10s...\n");
+				printf("%c", 12);
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Measurement failed with error value %d\n", ret);
+				printf("%s", stored_dat[stored_data_insert]);
+				stored_data %= RECORDED_POINTS;
 			}
 			else
 			{
-				printf("Measurements: \n");
-				printf("--- Temperature: %5.2f C°", getTemperature(sens_ptr));
-				printf("--- Humidity: %5.2f \%RH\n", getHumidity(sens_ptr));
+				printf("%c", 12);
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Temperature: %5.2f C° | Humidity: %5.2f \%RH\n", getTemperature(sens_ptr), getHumidity(sens_ptr));
+				printf("%s", stored_dat[stored_data_insert]);
+				stored_data %= RECORDED_POINTS;
 			}
+
 		} if (state.hat == 0 && motor_limiter <=98) { // increase max power on up d pad
 			printf("%c", 12);
 			motor_limiter += 2;
@@ -202,7 +216,7 @@ int main() {
 		} if (state.buttons == 0x0010) { // print out data on share
 			printf("%c", 12);
 			// TODO
-			// print_data();
+			print_data();
 		} if (state.buttons == 0x0100) { // print out button mapping on PS4
 			printf("%c", 12);
 			printf("----------BUTTON MAPPING----------\n");
