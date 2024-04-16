@@ -173,7 +173,7 @@ int main() {
 			{
 				printf("%c", 12);
 				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Measurement failed with error value %d\n", ret);
-				printf("%s", stored_dat[stored_data_insert]);
+				printf("%s", stored_data[stored_data_insert]);
 				stored_data_insert = stored_data_insert % RECORDED_POINTS;
 			}
 			else
