@@ -63,13 +63,13 @@ DHT20 *sens_ptr = &sens;
 void rtc_init() {
 
 	// Start on Friday 5th of June 2020 15:45:00
-    t.year  = 2020,
-    t.month = 06,
-    t.day   = 05,
-    t.dotw  = 5, // 0 is Sunday, so 5 is Friday
-    t.hour  = 15,
-    t.min   = 45,
-    t.sec   = 00
+    t.year  = 2020;
+    t.month = 06;
+    t.day   = 05;
+    t.dotw  = 5; // 0 is Sunday, so 5 is Friday
+    t.hour  = 15;
+    t.min   = 45;
+    t.sec   = 00;
  
     // Start the RTC
     rtc_init();
