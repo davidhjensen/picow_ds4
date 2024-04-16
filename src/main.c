@@ -5,9 +5,11 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include "hardware/rtc.h"
 #include "hardware/gpio.h"
 #include "hardware/pwm.h"
-#include "hardware/rtc.h"
+#include "pico/stdlib.h"
+#include "pico/util/datetime.h"
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
 #include "pico/binary_info.h"
