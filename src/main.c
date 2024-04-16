@@ -32,6 +32,9 @@
 #define RECORDED_POINTS 20
 #define DATA_LENGTH 200
 
+#define I2C_SDA 14
+#define I2C_SCL 15
+
 uint servo_slice;
 uint servo_voltage_slice;
 uint motor_slice;
@@ -50,13 +53,13 @@ DHT20 sens;
 DHT20 *sens_ptr = &sens;
 
 void sensor_init() {
-	i2c_init(i2c_default, 100 * 1000);
-    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
-    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
-    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
-    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+	i2c_init(i2c1, 100 * 1000);
+    gpio_set_function(I2C_SDA, GPIO_FUNC_I2C);
+    gpio_set_function(I2C_SCL, GPIO_FUNC_I2C);
+    gpio_pull_up(I2C_SDA);
+    gpio_pull_up(I2C_SCL);
     // Make the I2C pins available to picotool
-    bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
+    bi_decl(bi_2pins_with_func(I2C_SDA, I2C_SCL, GPIO_FUNC_I2C));
 }
 
 void servo_init() {
@@ -122,7 +125,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 void joystickX2ServoPwm(uint8_t joy_in) {
 	uint16_t val = (int) 25000 * (servo_center + .05 * (servo_limiter / 90.0) * (joy_in-JOY_X_CENTER) / MAX_JOY_X);
 	pwm_set_gpio_level(SERVO_PWM_PIN, val);
-	printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
+	// printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
 
 void print_data() {
