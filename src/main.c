@@ -55,20 +55,21 @@ uint stored_data_insert = 0;
 char datetime_buf[256];
 char *datetime_str = &datetime_buf[0];
 
+datetime_t t;
+
 DHT20 sens;
 DHT20 *sens_ptr = &sens;
 
 void rtc_init() {
+
 	// Start on Friday 5th of June 2020 15:45:00
-    datetime_t t = {
-            .year  = 2020,
-            .month = 06,
-            .day   = 05,
-            .dotw  = 5, // 0 is Sunday, so 5 is Friday
-            .hour  = 15,
-            .min   = 45,
-            .sec   = 00
-    };
+    t.year  = 2020,
+    t.month = 06,
+    t.day   = 05,
+    t.dotw  = 5, // 0 is Sunday, so 5 is Friday
+    t.hour  = 15,
+    t.min   = 45,
+    t.sec   = 00
  
     // Start the RTC
     rtc_init();
