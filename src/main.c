@@ -130,7 +130,9 @@ void joystickX2ServoPwm(uint8_t joy_in) {
 
 void print_data() {
 	printf("--------------------COLLECTED DATA--------------------\n");
-	printf("%15s%15s%15s\n", "test1", "test2", "test3");
+	for(int i; i < RECORDED_POINTS; i++) {
+		printf("%s\n", stored_data[i]);
+	}
 }
 
 int main() {
