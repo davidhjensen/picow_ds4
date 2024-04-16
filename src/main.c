@@ -20,8 +20,7 @@
 #define MOTOR_EN_1 16
 #define MOTOR_EN_2 17
 
-#define SERVO_PWM_PIN 0
-#define SERVO_VOLTAGE_PIN 6 // output PWM to step ~12V down to ~6V
+#define SERVO_PWM_PIN 8
 
 #define MAX_JOY_Y 128.0
 #define JOY_Y_CENTER 128.0
@@ -121,7 +120,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 }
 
 void joystickX2ServoPwm(uint8_t joy_in) {
-	uint16_t val = (int) 25000 * (servo_center + .05 * (servo_limiter / 90) * (joy_in-JOY_X_CENTER) / MAX_JOY_Y);
+	uint16_t val = (int) 25000 * (servo_center + .05 * (servo_limiter / 90) * (joy_in-JOY_X_CENTER) / MAX_JOY_X);
 	pwm_set_gpio_level(SERVO_PWM_PIN, val);
 	//printf("Servo PWM: (%d) %d (%.2f%%)\n", joy_in, val, 100.0*val/25000);
 }
