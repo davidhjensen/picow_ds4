@@ -7,6 +7,7 @@
 
 #include "hardware/gpio.h"
 #include "hardware/pwm.h"
+#include "hardware/rtc.h"
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
 #include "pico/binary_info.h"
@@ -49,8 +50,28 @@ uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
 char stored_data[RECORDED_POINTS][DATA_LENGTH];
 uint stored_data_insert = 0;
 
+char datetime_buf[256];
+char *datetime_str = &datetime_buf[0];
+
 DHT20 sens;
 DHT20 *sens_ptr = &sens;
+
+void rtc_init() {
+	// Start on Friday 5th of June 2020 15:45:00
+    datetime_t t = {
+            .year  = 2020,
+            .month = 06,
+            .day   = 05,
+            .dotw  = 5, // 0 is Sunday, so 5 is Friday
+            .hour  = 15,
+            .min   = 45,
+            .sec   = 00
+    };
+ 
+    // Start the RTC
+    rtc_init();
+    rtc_set_datetime(&t);
+}
 
 void sensor_init() {
 	i2c_init(i2c1, 100 * 1000);
@@ -130,7 +151,7 @@ void joystickX2ServoPwm(uint8_t joy_in) {
 
 void print_data() {
 	printf("--------------------COLLECTED DATA--------------------\n");
-	printf("%20s%20s%20s", "Time Stamp:", "Temperature:", "Realitve Humidity:\n");
+	printf("%-20s%-20s%-20s", "Time Stamp:", "Temperature:", "Realitve Humidity:\n");
 	for(int i; i < RECORDED_POINTS; i++) {
 		printf("%s\n", stored_data[i]);
 	}
@@ -174,6 +195,8 @@ int main() {
 		joystickX2ServoPwm(state.rx);
 
 		if(state.buttons == 0x2000) {
+			rtc_get_datetime(&t);
+        	datetime_to_str(datetime_str, sizeof(datetime_buf), &t);
 			int ret = getMeasurement(sens_ptr);
 			if (ret != DHT20_OK)
 			{
@@ -185,7 +208,7 @@ int main() {
 			else
 			{
 				printf("%c", 12);
-				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%20s%20.2f%20.2f", "day:month:year:etc", getTemperature(sens_ptr), getHumidity(sens_ptr));
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%-20s%-20.2f%-20.2f", datetime_str, getTemperature(sens_ptr), getHumidity(sens_ptr));
 				printf("%s", stored_data[stored_data_insert]);
 				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
