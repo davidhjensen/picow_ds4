@@ -220,6 +220,19 @@ picow_ds4/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/build
 .PHONY : picow_ds4/fast
 
+#=============================================================================
+# Target rules for targets named dht20
+
+# Build rule for target.
+dht20: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dht20
+.PHONY : dht20
+
+# fast build rule for target.
+dht20/fast:
+	$(MAKE) $(MAKESILENT) -f src/dht20-pico/CMakeFiles/dht20.dir/build.make src/dht20-pico/CMakeFiles/dht20.dir/build
+.PHONY : dht20/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,6 +247,7 @@ help:
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... bs2_default"
+	@echo "... dht20"
 	@echo "... picow_ds4"
 .PHONY : help
 

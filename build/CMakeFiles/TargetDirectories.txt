@@ -169,3 +169,6 @@
 /home/dhjensen02/picow_ds4/build/src/CMakeFiles/edit_cache.dir
 /home/dhjensen02/picow_ds4/build/src/CMakeFiles/ELF2UF2Build.dir
 /home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir
+/home/dhjensen02/picow_ds4/build/src/dht20-pico/CMakeFiles/rebuild_cache.dir
+/home/dhjensen02/picow_ds4/build/src/dht20-pico/CMakeFiles/edit_cache.dir
+/home/dhjensen02/picow_ds4/build/src/dht20-pico/CMakeFiles/dht20.dir

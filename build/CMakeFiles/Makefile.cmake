@@ -120,6 +120,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "src/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt.in"
   "../pico_sdk_import.cmake"
   "../src/CMakeLists.txt"
+  "../src/dht20-pico/CMakeLists.txt"
   "/usr/share/cmake-3.18/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake"
@@ -239,6 +240,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/dht20-pico/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -250,4 +252,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "src/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "src/CMakeFiles/picow_ds4.dir/DependInfo.cmake"
+  "src/dht20-pico/CMakeFiles/dht20.dir/DependInfo.cmake"
   )
