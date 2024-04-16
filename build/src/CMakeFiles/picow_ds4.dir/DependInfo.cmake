@@ -56,7 +56,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
-  "LIB_PICO_STDIO_UART=1"
   "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
@@ -83,6 +82,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../src"
+  "../src/dht20"
+  "../src/dht20-pico"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
@@ -118,7 +119,6 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_bootrom/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_binary_info/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/include"
@@ -151,6 +151,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "/home/dhjensen02/picow_ds4/btstack/3rd-party/md5/md5.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj"
@@ -288,6 +289,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+  "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pll/pll.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
@@ -327,7 +329,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_runtime/runtime.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-  "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
@@ -373,7 +374,6 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
-  "LIB_PICO_STDIO_UART=1"
   "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
@@ -400,6 +400,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../src"
+  "../src/dht20"
+  "../src/dht20-pico"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
@@ -435,7 +437,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_bootrom/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_binary_info/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/include"
@@ -468,6 +469,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "/home/dhjensen02/picow_ds4/build/src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
@@ -510,7 +512,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "LIB_PICO_RUNTIME=1"
   "LIB_PICO_STANDARD_LINK=1"
   "LIB_PICO_STDIO=1"
-  "LIB_PICO_STDIO_UART=1"
   "LIB_PICO_STDIO_USB=1"
   "LIB_PICO_STDLIB=1"
   "LIB_PICO_SYNC=1"
@@ -537,6 +538,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
+  "../src/dht20"
+  "../src/dht20-pico"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pwm/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_base/include"
   "generated/pico_base"
@@ -572,7 +575,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_bootrom/include"
   "/home/dhjensen02/pico-sdk/src/common/pico_binary_info/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/include"
-  "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/include"
@@ -605,10 +607,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/include"
   "/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/include"
+  "/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/dhjensen02/picow_ds4/build/src/dht20-pico/CMakeFiles/dht20.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

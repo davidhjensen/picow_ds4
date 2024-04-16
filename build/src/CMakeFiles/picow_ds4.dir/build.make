@@ -586,22 +586,9 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
-src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -614,7 +601,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -627,7 +614,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -640,7 +627,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -653,7 +640,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_unique
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -666,7 +653,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_fl
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -679,7 +666,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/r
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -692,7 +679,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/portable/r
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -705,7 +692,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usb
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -718,7 +705,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/device/usb
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -731,7 +718,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/audi
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -744,7 +731,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/cdc/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -757,7 +744,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -770,7 +757,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/dfu/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -783,7 +770,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/hid/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -796,7 +783,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/midi
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -809,7 +796,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/msc/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -822,7 +809,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -835,7 +822,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/net/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -848,7 +835,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/usbt
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -861,7 +848,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vend
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -874,7 +861,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/class/vide
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -887,7 +874,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/tusb.c.s: 
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -900,7 +887,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/tinyusb/src/common/tus
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -913,7 +900,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_fix/rp
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -926,7 +913,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -939,7 +926,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -952,7 +939,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -965,7 +952,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -978,7 +965,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -991,7 +978,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -1004,7 +991,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -1017,7 +1004,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -1030,7 +1017,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/lib/cyw43-driver/src/cyw43
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -1043,7 +1030,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -1056,7 +1043,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1069,7 +1056,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_pi
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1082,7 +1069,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_dm
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1095,7 +1082,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_ex
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -1108,7 +1095,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -1121,7 +1108,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1134,7 +1121,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_async_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.obj: ../btstack/src/classic/a2dp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/a2dp.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.i: cmake_force
@@ -1147,7 +1134,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.obj: ../btstack/src/classic/a2dp_sink.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/a2dp_sink.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.i: cmake_force
@@ -1160,7 +1147,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_sink.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.obj: ../btstack/src/classic/a2dp_source.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/a2dp_source.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.i: cmake_force
@@ -1173,7 +1160,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/a2dp_source.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.obj: ../btstack/src/classic/avdtp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.i: cmake_force
@@ -1186,7 +1173,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.obj: ../btstack/src/classic/avdtp_acceptor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp_acceptor.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.i: cmake_force
@@ -1199,7 +1186,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_acceptor.c.s: cmake_fo
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.obj: ../btstack/src/classic/avdtp_initiator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp_initiator.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.i: cmake_force
@@ -1212,7 +1199,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_initiator.c.s: cmake_f
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.obj: ../btstack/src/classic/avdtp_sink.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp_sink.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.i: cmake_force
@@ -1225,7 +1212,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_sink.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.obj: ../btstack/src/classic/avdtp_source.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp_source.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.i: cmake_force
@@ -1238,7 +1225,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_source.c.s: cmake_forc
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.obj: ../btstack/src/classic/avdtp_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avdtp_util.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.i: cmake_force
@@ -1251,7 +1238,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avdtp_util.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.obj: ../btstack/src/classic/avrcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.i: cmake_force
@@ -1264,7 +1251,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.obj: ../btstack/src/classic/avrcp_browsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_browsing.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.i: cmake_force
@@ -1277,7 +1264,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing.c.s: cmake_fo
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.obj: ../btstack/src/classic/avrcp_browsing_controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_browsing_controller.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.i: cmake_force
@@ -1290,7 +1277,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_controller.c.
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.obj: ../btstack/src/classic/avrcp_browsing_target.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_browsing_target.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.i: cmake_force
@@ -1303,7 +1290,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_browsing_target.c.s: c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.obj: ../btstack/src/classic/avrcp_controller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_controller.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.i: cmake_force
@@ -1316,7 +1303,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_controller.c.s: cmake_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.obj: ../btstack/src/classic/avrcp_cover_art_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_cover_art_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.i: cmake_force
@@ -1329,7 +1316,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_cover_art_client.c.s: 
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.obj: ../btstack/src/classic/avrcp_media_item_iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_media_item_iterator.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.i: cmake_force
@@ -1342,7 +1329,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_media_item_iterator.c.
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.obj: ../btstack/src/classic/avrcp_target.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/avrcp_target.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.i: cmake_force
@@ -1355,7 +1342,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/avrcp_target.c.s: cmake_forc
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.obj: ../btstack/src/classic/btstack_cvsd_plc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/btstack_cvsd_plc.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.i: cmake_force
@@ -1368,7 +1355,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_cvsd_plc.c.s: cmake_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.obj: ../btstack/src/classic/btstack_link_key_db_tlv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/btstack_link_key_db_tlv.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.i: cmake_force
@@ -1381,7 +1368,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_link_key_db_tlv.c.s:
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.obj: ../btstack/src/classic/btstack_sbc_plc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/btstack_sbc_plc.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.i: cmake_force
@@ -1394,7 +1381,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/btstack_sbc_plc.c.s: cmake_f
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.obj: ../btstack/src/classic/device_id_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/device_id_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.i: cmake_force
@@ -1407,7 +1394,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/device_id_server.c.s: cmake_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.obj: ../btstack/src/classic/gatt_sdp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/gatt_sdp.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.i: cmake_force
@@ -1420,7 +1407,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/gatt_sdp.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.obj: ../btstack/src/classic/goep_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/goep_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.i: cmake_force
@@ -1433,7 +1420,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_client.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.obj: ../btstack/src/classic/goep_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/goep_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.i: cmake_force
@@ -1446,7 +1433,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/goep_server.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.obj: ../btstack/src/classic/hfp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hfp.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.i: cmake_force
@@ -1459,7 +1446,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.obj: ../btstack/src/classic/hfp_ag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hfp_ag.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.i: cmake_force
@@ -1472,7 +1459,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_ag.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.obj: ../btstack/src/classic/hfp_gsm_model.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hfp_gsm_model.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.i: cmake_force
@@ -1485,7 +1472,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_gsm_model.c.s: cmake_for
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.obj: ../btstack/src/classic/hfp_hf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hfp_hf.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.i: cmake_force
@@ -1498,7 +1485,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_hf.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.obj: ../btstack/src/classic/hfp_msbc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hfp_msbc.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.i: cmake_force
@@ -1511,7 +1498,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hfp_msbc.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.obj: ../btstack/src/classic/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hid_device.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.i: cmake_force
@@ -1524,7 +1511,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_device.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.obj: ../btstack/src/classic/hid_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hid_host.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.i: cmake_force
@@ -1537,7 +1524,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hid_host.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.obj: ../btstack/src/classic/hsp_ag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hsp_ag.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.i: cmake_force
@@ -1550,7 +1537,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_ag.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.obj: ../btstack/src/classic/hsp_hs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/hsp_hs.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.i: cmake_force
@@ -1563,7 +1550,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/hsp_hs.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.obj: ../btstack/src/classic/obex_iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/obex_iterator.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.i: cmake_force
@@ -1576,7 +1563,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_iterator.c.s: cmake_for
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.obj: ../btstack/src/classic/obex_message_builder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/obex_message_builder.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.i: cmake_force
@@ -1589,7 +1576,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_message_builder.c.s: cm
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.obj: ../btstack/src/classic/obex_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/obex_parser.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.i: cmake_force
@@ -1602,7 +1589,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/obex_parser.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.obj: ../btstack/src/classic/pan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/pan.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.i: cmake_force
@@ -1615,7 +1602,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pan.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.obj: ../btstack/src/classic/pbap_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/pbap_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.i: cmake_force
@@ -1628,7 +1615,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/pbap_client.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.obj: ../btstack/src/classic/rfcomm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/rfcomm.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.i: cmake_force
@@ -1641,7 +1628,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/rfcomm.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.obj: ../btstack/src/classic/sdp_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/sdp_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.i: cmake_force
@@ -1654,7 +1641,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.obj: ../btstack/src/classic/sdp_client_rfcomm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/sdp_client_rfcomm.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.i: cmake_force
@@ -1667,7 +1654,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_client_rfcomm.c.s: cmake
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.obj: ../btstack/src/classic/sdp_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/sdp_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.i: cmake_force
@@ -1680,7 +1667,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_server.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.obj: ../btstack/src/classic/sdp_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/sdp_util.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.i: cmake_force
@@ -1693,7 +1680,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/sdp_util.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.obj: ../btstack/src/classic/spp_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/classic/spp_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.i: cmake_force
@@ -1706,7 +1693,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/classic/spp_server.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.obj: ../btstack/3rd-party/micro-ecc/uECC.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/micro-ecc/uECC.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.i: cmake_force
@@ -1719,7 +1706,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/micro-ecc/uECC.c.s: cmake_forc
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.obj: ../btstack/3rd-party/rijndael/rijndael.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/rijndael/rijndael.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.i: cmake_force
@@ -1732,7 +1719,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/rijndael/rijndael.c.s: cmake_f
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj: ../btstack/3rd-party/segger-rtt/SEGGER_RTT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/segger-rtt/SEGGER_RTT.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.i: cmake_force
@@ -1745,7 +1732,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.s: cma
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj: ../btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.i: cmake_force
@@ -1758,7 +1745,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj: ../btstack/platform/embedded/btstack_tlv_flash_bank.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj -c /home/dhjensen02/picow_ds4/btstack/platform/embedded/btstack_tlv_flash_bank.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank.c.i: cmake_force
@@ -1771,7 +1758,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/btstack_tlv_flash_bank
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj: ../btstack/platform/embedded/hci_dump_embedded_stdout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj -c /home/dhjensen02/picow_ds4/btstack/platform/embedded/hci_dump_embedded_stdout.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdout.c.i: cmake_force
@@ -1784,7 +1771,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_embedded_stdo
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj: ../btstack/platform/embedded/hci_dump_segger_rtt_stdout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj -c /home/dhjensen02/picow_ds4/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.i: cmake_force
@@ -1797,7 +1784,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/platform/embedded/hci_dump_segger_rtt_st
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.obj: ../btstack/src/ad_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ad_parser.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.i: cmake_force
@@ -1810,7 +1797,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ad_parser.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.obj: ../btstack/src/btstack_audio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_audio.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.i: cmake_force
@@ -1823,7 +1810,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_audio.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.obj: ../btstack/src/btstack_base64_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_base64_decoder.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.i: cmake_force
@@ -1836,7 +1823,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_base64_decoder.c.s: cmake_fo
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.obj: ../btstack/src/btstack_crypto.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_crypto.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.i: cmake_force
@@ -1849,7 +1836,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_crypto.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.obj: ../btstack/src/btstack_hid_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_hid_parser.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.i: cmake_force
@@ -1862,7 +1849,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_hid_parser.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.obj: ../btstack/src/btstack_linked_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_linked_list.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.i: cmake_force
@@ -1875,7 +1862,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_linked_list.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.obj: ../btstack/src/btstack_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_memory.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.i: cmake_force
@@ -1888,7 +1875,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.obj: ../btstack/src/btstack_memory_pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_memory_pool.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.i: cmake_force
@@ -1901,7 +1888,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_memory_pool.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.obj: ../btstack/src/btstack_resample.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_resample.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.i: cmake_force
@@ -1914,7 +1901,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_resample.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.obj: ../btstack/src/btstack_ring_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_ring_buffer.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.i: cmake_force
@@ -1927,7 +1914,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_ring_buffer.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.obj: ../btstack/src/btstack_run_loop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_run_loop.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.i: cmake_force
@@ -1940,7 +1927,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.obj: ../btstack/src/btstack_run_loop_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_run_loop_base.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.i: cmake_force
@@ -1953,7 +1940,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_run_loop_base.c.s: cmake_for
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.obj: ../btstack/src/btstack_slip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_slip.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.i: cmake_force
@@ -1966,7 +1953,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_slip.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.obj: ../btstack/src/btstack_tlv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_tlv.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.i: cmake_force
@@ -1979,7 +1966,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.obj: ../btstack/src/btstack_tlv_none.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_tlv_none.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.i: cmake_force
@@ -1992,7 +1979,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_tlv_none.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.obj: ../btstack/src/btstack_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/btstack_util.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.i: cmake_force
@@ -2005,7 +1992,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/btstack_util.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.obj: ../btstack/src/hci.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/hci.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.i: cmake_force
@@ -2018,7 +2005,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.obj: ../btstack/src/hci_cmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/hci_cmd.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.i: cmake_force
@@ -2031,7 +2018,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_cmd.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.obj: ../btstack/src/hci_dump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/hci_dump.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.i: cmake_force
@@ -2044,7 +2031,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_dump.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.obj: ../btstack/src/hci_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/hci_event.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.i: cmake_force
@@ -2057,7 +2044,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/hci_event.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.obj: ../btstack/src/l2cap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/l2cap.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.i: cmake_force
@@ -2070,7 +2057,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.obj: ../btstack/src/l2cap_signaling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/l2cap_signaling.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.i: cmake_force
@@ -2083,7 +2070,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/l2cap_signaling.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj: ../btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.i: cmake_force
@@ -2096,7 +2083,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_provisioning_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj: ../btstack/src/mesh/gatt-service/mesh_proxy_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.i: cmake_force
@@ -2109,7 +2096,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/mesh/gatt-service/mesh_proxy_service
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj: ../btstack/3rd-party/md5/md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/md5/md5.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.i: cmake_force
@@ -2122,7 +2109,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/md5/md5.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.obj: ../btstack/3rd-party/yxml/yxml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.obj -c /home/dhjensen02/picow_ds4/btstack/3rd-party/yxml/yxml.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.i: cmake_force
@@ -2135,7 +2122,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/3rd-party/yxml/yxml.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.i: cmake_force
@@ -2148,7 +2135,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstac
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.obj: ../btstack/src/ble/att_db.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/att_db.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.i: cmake_force
@@ -2161,7 +2148,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.obj: ../btstack/src/ble/att_db_util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/att_db_util.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.i: cmake_force
@@ -2174,7 +2161,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_db_util.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.obj: ../btstack/src/ble/att_dispatch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/att_dispatch.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.i: cmake_force
@@ -2187,7 +2174,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_dispatch.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.obj: ../btstack/src/ble/att_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/att_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.i: cmake_force
@@ -2200,7 +2187,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/att_server.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.obj: ../btstack/src/ble/gatt-service/battery_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/battery_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_server.c.i: cmake_force
@@ -2213,7 +2200,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_ser
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.obj: ../btstack/src/ble/gatt-service/battery_service_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/battery_service_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_client.c.i: cmake_force
@@ -2226,7 +2213,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/battery_service_cli
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj: ../btstack/src/ble/gatt-service/cycling_power_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/cycling_power_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_service_server.c.i: cmake_force
@@ -2239,7 +2226,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_power_servi
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj: ../btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.i: cmake_force
@@ -2252,7 +2239,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/cycling_speed_and_c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.obj: ../btstack/src/ble/gatt-service/device_information_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/device_information_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_server.c.i: cmake_force
@@ -2265,7 +2252,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.obj: ../btstack/src/ble/gatt-service/device_information_service_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/device_information_service_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_service_client.c.i: cmake_force
@@ -2278,7 +2265,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/device_information_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj: ../btstack/src/ble/gatt-service/heart_rate_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/heart_rate_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_server.c.i: cmake_force
@@ -2291,7 +2278,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/heart_rate_service_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.obj: ../btstack/src/ble/gatt-service/hids_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/hids_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.i: cmake_force
@@ -2304,7 +2291,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_client.c.s: cm
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.obj: ../btstack/src/ble/gatt-service/hids_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/hids_device.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.i: cmake_force
@@ -2317,7 +2304,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/hids_device.c.s: cm
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj: ../btstack/src/ble/gatt-service/nordic_spp_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/nordic_spp_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_server.c.i: cmake_force
@@ -2330,7 +2317,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/nordic_spp_service_
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj: ../btstack/src/ble/gatt-service/ublox_spp_service_server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/ublox_spp_service_server.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_server.c.i: cmake_force
@@ -2343,7 +2330,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ublox_spp_service_s
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.obj: ../btstack/src/ble/gatt-service/ancs_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt-service/ancs_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.i: cmake_force
@@ -2356,7 +2343,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt-service/ancs_client.c.s: cm
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.obj: ../btstack/src/ble/gatt_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/gatt_client.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.i: cmake_force
@@ -2369,7 +2356,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/gatt_client.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.obj: ../btstack/src/ble/le_device_db_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/le_device_db_memory.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.i: cmake_force
@@ -2382,7 +2369,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_memory.c.s: cmake_f
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.obj: ../btstack/src/ble/le_device_db_tlv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/le_device_db_tlv.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.i: cmake_force
@@ -2395,7 +2382,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/le_device_db_tlv.c.s: cmake_forc
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.obj: ../btstack/src/ble/sm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.obj -c /home/dhjensen02/picow_ds4/btstack/src/ble/sm.c
 
 src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.i: cmake_force
@@ -2408,7 +2395,7 @@ src/CMakeFiles/picow_ds4.dir/__/btstack/src/ble/sm.c.s: cmake_force
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.i: cmake_force
@@ -2421,7 +2408,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.i: cmake_force
@@ -2434,7 +2421,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstac
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -2447,7 +2434,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_flash/
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.i: cmake_force
@@ -2460,7 +2447,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstac
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.i: cmake_force
@@ -2473,7 +2460,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.i: cmake_force
@@ -2486,7 +2473,7 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -2496,6 +2483,19 @@ src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multic
 src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
 	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
+src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: src/CMakeFiles/picow_ds4.dir/flags.make
+src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
+
+src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
+	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
+	cd /home/dhjensen02/picow_ds4/build/src && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 # Object files for target picow_ds4
 picow_ds4_OBJECTS = \
@@ -2545,7 +2545,6 @@ picow_ds4_OBJECTS = \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
@@ -2691,7 +2690,8 @@ picow_ds4_OBJECTS = \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj" \
 "CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj" \
-"CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+"CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
+"CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 
 # External object files for target picow_ds4
 picow_ds4_EXTERNAL_OBJECTS =
@@ -2742,7 +2742,6 @@ src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
@@ -2889,7 +2888,9 @@ src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/build.make
+src/picow_ds4.elf: src/dht20-pico/libdht20.a
 src/picow_ds4.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 src/picow_ds4.elf: src/CMakeFiles/picow_ds4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dhjensen02/picow_ds4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Linking CXX executable picow_ds4.elf"

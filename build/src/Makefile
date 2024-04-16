@@ -3813,6 +3813,33 @@ home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+
+# target to build an object file
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+
 home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 .PHONY : home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.obj
@@ -4983,33 +5010,6 @@ home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
-
-# target to build an object file
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-
-# target to preprocess a source file
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
-
-# target to generate assembly for a file
-home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/dhjensen02/picow_ds4/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/picow_ds4.dir/build.make src/CMakeFiles/picow_ds4.dir/home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 .PHONY : home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
@@ -5588,6 +5588,9 @@ help:
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
+	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/hardware_irq/irq.s"
@@ -5718,9 +5721,6 @@ help:
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
-	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... home/dhjensen02/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
