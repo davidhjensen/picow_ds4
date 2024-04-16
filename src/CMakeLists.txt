@@ -19,6 +19,7 @@ target_link_directories(picow_ds4 PUBLIC "dht20-pico")
 target_link_libraries(picow_ds4
 	hardware_pwm
 	hardware_gpio
+	hardware_rtc
 	pico_stdlib
 	pico_cyw43_arch_none
         pico_btstack_classic
