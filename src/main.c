@@ -179,14 +179,14 @@ int main() {
 				printf("%c", 12);
 				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Measurement failed with error value %d\n", ret);
 				printf("%s", stored_data[stored_data_insert]);
-				stored_data_insert = stored_data_insert % RECORDED_POINTS;
+				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
 			else
 			{
 				printf("%c", 12);
 				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Temperature: %5.2f C° | Humidity: %5.2f \%RH\n", getTemperature(sens_ptr), getHumidity(sens_ptr));
 				printf("%s", stored_data[stored_data_insert]);
-				stored_data_insert = stored_data_insert % RECORDED_POINTS;
+				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
 
 		} if (state.hat == 0 && motor_limiter <=98) { // increase max power on up d pad
