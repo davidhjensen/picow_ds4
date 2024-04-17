@@ -21,7 +21,7 @@
 
 #define MOTOR_PWM_PIN 10
 #define MOTOR_EN_1 11
-#define MOTOR_EN_2 17
+#define MOTOR_EN_2 12
 
 #define SERVO_PWM_PIN 8
 
