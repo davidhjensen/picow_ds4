@@ -166,22 +166,17 @@ void print_data() {
 
 int main() {
 	stdio_init_all();
-	sleep_ms(3000);
-
+	motor_init();
+	servo_init();
+	sensor_init();
+	sleep_ms(10000);
+	clock_init();
+	
 	multicore_launch_core1(bt_main);
 	// Wait for init (should do a handshake with the fifo here?)
 	sleep_ms(1000);
 
 	struct bt_hid_state state;
-
-	while(state.buttons != 0x0100) {
-		bt_hid_get_latest(&state);
-	}
-
-	motor_init();
-	servo_init();
-	sensor_init();
-	clock_init();
 
 	for ( ;; ) {
 		sleep_ms(100);
