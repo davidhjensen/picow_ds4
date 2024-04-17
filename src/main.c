@@ -63,13 +63,17 @@ DHT20 *sens_ptr = &sens;
 void clock_init() {
 
 	// Start on Friday 5th of June 2020 15:45:00
-    t.year  = 2020;
+	printf("-----RTC SETUP-----\nEnter date in the following format: YYYY MM DD W HH MM SS\n*note W is the day of the week with 0 corrisponding to Sunday\n")
+    scanf(" %d %d %d %d %d %d %d", &t.year, &t.month, &t.day, &t.dotw, &t.hour, &t.min, &t.sec);
+	/*
+	t.year  = 2020;
     t.month = 06;
     t.day   = 05;
     t.dotw  = 5; // 0 is Sunday, so 5 is Friday
     t.hour  = 15;
     t.min   = 45;
     t.sec   = 00;
+	*/
  
     // Start the RTC
     rtc_init();
@@ -162,31 +166,20 @@ void print_data() {
 
 int main() {
 	stdio_init_all();
-
-	motor_init();
-	servo_init();
-	sensor_init();
-	clock_init();
-	
-	sleep_ms(5000);
-	
-	printf("Initialize DHT20.\n");
-    int sensor_ret = DHT20_init(sens_ptr);
-    if (sensor_ret != DHT20_OK)
-    {
-        printf("Failed to initialize the sensor.\n");
-        printf("Sensor return value %d\n", sensor_ret);
-    }
-    printf("Initialized DHT20.\n");
-	
-
-	sleep_ms(1000);
+	sleep_ms(3000);
 
 	multicore_launch_core1(bt_main);
 	// Wait for init (should do a handshake with the fifo here?)
 	sleep_ms(1000);
 
 	struct bt_hid_state state;
+
+	while(state.buttons != 0x0100) {}
+
+	motor_init();
+	servo_init();
+	sensor_init();
+	clock_init();
 
 	for ( ;; ) {
 		sleep_ms(100);
