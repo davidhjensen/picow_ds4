@@ -60,7 +60,7 @@ datetime_t t;
 DHT20 sens;
 DHT20 *sens_ptr = &sens;
 
-void rtc_init() {
+void clock_init() {
 
 	// Start on Friday 5th of June 2020 15:45:00
     t.year  = 2020;
@@ -166,7 +166,8 @@ int main() {
 	motor_init();
 	servo_init();
 	sensor_init();
-
+	clock_init();
+	
 	sleep_ms(5000);
 	
 	printf("Initialize DHT20.\n");
