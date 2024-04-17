@@ -19,8 +19,8 @@
 #include "dht20-pico/DHT20.h"
 
 
-#define MOTOR_PWM_PIN 18
-#define MOTOR_EN_1 16
+#define MOTOR_PWM_PIN 10
+#define MOTOR_EN_1 11
 #define MOTOR_EN_2 17
 
 #define SERVO_PWM_PIN 8
