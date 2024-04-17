@@ -63,24 +63,24 @@ DHT20 *sens_ptr = &sens;
 void clock_init() {
 
 	// Start on Friday 5th of June 2020 15:45:00
-	int test_int;
+	int year, month, day, dotw, hour, min, sec;
 	printf("-----RTC SETUP-----\nEnter date in the following format: YYYY MM DD W HH MM SS\n*note W is the day of the week with 0 corrisponding to Sunday\n");
-    scanf("%d", &(t.year));
-	scanf("%d", &(t.month));
-	scanf("%d", &(t.day));
-	scanf("%d", &(t.dotw));
-	scanf("%d", &(t.hour));
-	scanf("%d", &(t.min));
-	scanf("%d", &(t.sec));
-	/*
-	t.year  = 2020;
-    t.month = 06;
-    t.day   = 05;
-    t.dotw  = 5; // 0 is Sunday, so 5 is Friday
-    t.hour  = 15;
-    t.min   = 45;
-    t.sec   = 00;
-	*/
+    scanf("%d", &year);
+	scanf("%d", &month);
+	scanf("%d", &day);
+	scanf("%d", &dotw);
+	scanf("%d", &hour);
+	scanf("%d", &min);
+	scanf("%d", &sec);
+	
+	t.year  = year;
+    t.month = month;
+    t.day   = day;
+    t.dotw  = dotw; // 0 is Sunday, so 5 is Friday
+    t.hour  = hour;
+    t.min   = min;
+    t.sec   = sec;
+	
  
     // Start the RTC
     rtc_init();
