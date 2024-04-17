@@ -69,7 +69,7 @@ void clock_init() {
 	scanf("%d", &(t.month));
 	scanf("%d", &(t.day));
 	scanf("%d", &(t.dotw));
-	scanf("%d", &(t.hour);
+	scanf("%d", &(t.hour));
 	scanf("%d", &(t.min));
 	scanf("%d", &(t.sec));
 	/*
