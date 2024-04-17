@@ -64,7 +64,7 @@ void clock_init() {
 
 	// Start on Friday 5th of June 2020 15:45:00
 	printf("-----RTC SETUP-----\nEnter date in the following format: YYYY MM DD W HH MM SS\n*note W is the day of the week with 0 corrisponding to Sunday\n");
-    scanf(" %d %d %d %d %d %d %d", &t.year, &t.month, &t.day, &t.dotw, &t.hour, &t.min, &t.sec);
+    scanf("%d %d %d %d %d %d %d", &t.year, &t.month, &t.day, &t.dotw, &t.hour, &t.min, &t.sec);
 	/*
 	t.year  = 2020;
     t.month = 06;
@@ -171,7 +171,7 @@ int main() {
 	sensor_init();
 	sleep_ms(10000);
 	clock_init();
-	
+
 	multicore_launch_core1(bt_main);
 	// Wait for init (should do a handshake with the fifo here?)
 	sleep_ms(1000);
