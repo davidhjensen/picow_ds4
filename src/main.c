@@ -65,7 +65,13 @@ void clock_init() {
 	// Start on Friday 5th of June 2020 15:45:00
 	int test_int;
 	printf("-----RTC SETUP-----\nEnter date in the following format: YYYY MM DD W HH MM SS\n*note W is the day of the week with 0 corrisponding to Sunday\n");
-    scanf("%d %d %d %d %d %d %d", t.year, t.month, t.day, t.dotw, t.hour, t.min, t.sec);
+    scanf("%d", t.year);
+	scanf("%d", t.month);
+	scanf("%d", t.day);
+	scanf("%d", t.dotw);
+	scanf("%d", t.hour);
+	scanf("%d", t.min);
+	scanf("%d", t.sec);
 	/*
 	t.year  = 2020;
     t.month = 06;
