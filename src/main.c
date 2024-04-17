@@ -164,9 +164,9 @@ void joystickX2ServoPwm(uint8_t joy_in) {
 
 void print_data() {
 	printf("--------------------COLLECTED DATA--------------------\n");
-	printf("%-20s%-20s%-20s", "Time Stamp:", "Temperature:", "Realitve Humidity:\n");
+	printf("%-20s%-20s%-20s", "Time Stamp:", "Temperature:", "Realitve Humidity:");
 	for(int i; i < RECORDED_POINTS; i++) {
-		printf("%s\n", stored_data[i]);
+		printf("\n%s", stored_data[i]);
 	}
 }
 
@@ -201,14 +201,14 @@ int main() {
 			if (ret != DHT20_OK)
 			{
 				printf("%c", 12);
-				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Measurement failed with error value %d\n", ret);
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "Measurement failed with error value %d", ret);
 				printf("%s", stored_data[stored_data_insert]);
 				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
 			else
 			{
 				printf("%c", 12);
-				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%-20s%-20.2f%-20.2f", datetime_buf, getTemperature(sens_ptr), getHumidity(sens_ptr));
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%-20s%-20.2f°F%-20.2f%%", datetime_buf, (1.8*getTemperature(sens_ptr)+32), getHumidity(sens_ptr));
 				printf("%s", stored_data[stored_data_insert]);
 				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
