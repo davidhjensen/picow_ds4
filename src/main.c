@@ -174,7 +174,9 @@ int main() {
 
 	struct bt_hid_state state;
 
-	while(state.buttons != 0x0100) {}
+	while(state.buttons != 0x0100) {
+		bt_hid_get_latest(&state);
+	}
 
 	motor_init();
 	servo_init();
