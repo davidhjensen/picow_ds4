@@ -197,7 +197,7 @@ int main() {
 
 		if(state.buttons == 0x2000) {
 			rtc_get_datetime(&t);
-        	datetime_to_str(datetime_str, sizeof(datetime_buf), &t);
+        	snprintf(datetime_str, sizeof(datetime_str), "%d/%d/%d %d:%d:%d", t.month, t.day, t.year, t.hour, t.min, t.sec);
 			int ret = getMeasurement(sens_ptr);
 			if (ret != DHT20_OK)
 			{
