@@ -52,8 +52,7 @@ uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
 char stored_data[RECORDED_POINTS][DATA_LENGTH];
 uint stored_data_insert = 0;
 
-char datetime_buf[256];
-char *datetime_str = &datetime_buf[0];
+char datetime_buf[21];
 
 datetime_t t;
 
@@ -197,7 +196,7 @@ int main() {
 
 		if(state.buttons == 0x2000) {
 			rtc_get_datetime(&t);
-        	snprintf(datetime_str, sizeof(datetime_str), "%d/%d/%d %d:%d:%d", t.month, t.day, t.year, t.hour, t.min, t.sec);
+        	snprintf(datetime_buf, sizeof(datetime_buf), "%d/%d/%d %d:%d:%d", t.month, t.day, t.year, t.hour, t.min, t.sec);
 			int ret = getMeasurement(sens_ptr);
 			if (ret != DHT20_OK)
 			{
@@ -209,7 +208,7 @@ int main() {
 			else
 			{
 				printf("%c", 12);
-				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%-20s%-20.2f%-20.2f", datetime_str, getTemperature(sens_ptr), getHumidity(sens_ptr));
+				snprintf(stored_data[stored_data_insert], sizeof(stored_data[stored_data_insert]), "%-20s%-20.2f%-20.2f", datetime_buf, getTemperature(sens_ptr), getHumidity(sens_ptr));
 				printf("%s", stored_data[stored_data_insert]);
 				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
