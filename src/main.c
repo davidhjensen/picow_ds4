@@ -171,7 +171,7 @@ void joystickX2ServoPwm(uint8_t joy_in) {
 
 void print_data() {
 	printf("--------------------COLLECTED DATA--------------------\n");
-	printf("%-20s%-20s%-20s", "Time Stamp:", "Temperature (°F):", "Realitve Humidity (%%):");
+	printf("%-20s%-20s%-20s", "Time Stamp:", "Temperature (°F):", "Realitve Humidity (%):");
 	for(int i = stored_data_insert; i < stored_data_insert + RECORDED_POINTS; i++) {
 		if(sizeof(stored_data[i%RECORDED_POINTS])>5) {
 			printf("\n%s", stored_data[i%RECORDED_POINTS]);
