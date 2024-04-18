@@ -52,7 +52,7 @@ uint motor_dir_status = 0; // 0: stopped; 1: forward; 2: backward
 char stored_data[RECORDED_POINTS][DATA_LENGTH];
 uint stored_data_insert = 0;
 
-char datetime_buf[21];
+char datetime_buf[20];
 
 datetime_t t;
 
@@ -61,21 +61,22 @@ DHT20 *sens_ptr = &sens;
 
 void clock_init() {
 
-	// Start on Friday 5th of June 2020 15:45:00
 	int year, month, day, dotw, hour, min, sec;
-	printf("-----RTC SETUP-----\nEnter date in the following format: YYYY MM DD W HH MM SS\n*note W is the day of the week with 0 corrisponding to Sunday\n");
+	printf("-----RTC SETUP-----\nEnter date on a single line (YYYY MM DD HH MM SS): ");
+	/*
     scanf("%d", &year);
 	scanf("%d", &month);
 	scanf("%d", &day);
-	scanf("%d", &dotw);
 	scanf("%d", &hour);
 	scanf("%d", &min);
 	scanf("%d", &sec);
+	*/
+	scanf("%d %d %d %d %d %d", &year, &month, &day, &hour, &min, &sec);
 	
 	t.year  = year;
     t.month = month;
     t.day   = day;
-    t.dotw  = dotw; // 0 is Sunday, so 5 is Friday
+    //t.dotw  = dotw; // 0 is Sunday, so 5 is Friday
     t.hour  = hour;
     t.min   = min;
     t.sec   = sec;
@@ -101,7 +102,7 @@ void servo_init() {
 	gpio_set_function(SERVO_PWM_PIN, GPIO_FUNC_PWM);
 	servo_slice = pwm_gpio_to_slice_num(SERVO_PWM_PIN);
 	// clk div down to 50 Hz (period is 25000 counts) (clock is 125x10^6/100)
-	pwm_set_wrap(servo_slice, 25000); 
+	pwm_set_wrap(servo_slice, 24999); 
 	pwm_set_clkdiv(servo_slice, 100);
 	// set to center at 7.5% duty
 	pwm_set_chan_level(servo_slice, 0, 1875);
@@ -112,9 +113,15 @@ void motor_init() {
 	// motor pwm setup
 	gpio_set_function(MOTOR_PWM_PIN, GPIO_FUNC_PWM);
 	motor_slice = pwm_gpio_to_slice_num(MOTOR_PWM_PIN);
-	// clk div down to 500Hz (period is 31250 counts) (clock is 125x10^6/4)
+	/* old motor
+	// clk div down to 500Hz (period is 31250 counts) (clock is 125x10^6/8)
 	pwm_set_wrap(motor_slice, 31249); 
 	pwm_set_clkdiv(motor_slice, 8);
+	*/
+	// new motor
+	// clk div down to 5kHz (period is 1000 counts) (clock is 125x10^6/25)
+	pwm_set_wrap(motor_slice, 999); 
+	pwm_set_clkdiv(motor_slice, 25);
 	// set to still
 	pwm_set_chan_level(motor_slice, 0, 0);
 	pwm_set_enabled(motor_slice, true);
@@ -148,7 +155,7 @@ uint joystickY2MotorPwm(uint8_t joy_in, uint dir_stat) {
 	}
 
 	// convert to PWM duty and set
-	uint16_t val = (int) 31250 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * motor_limiter / 100;
+	uint16_t val = (int) 1000 * (abs(joy_in-JOY_Y_CENTER) / MAX_JOY_Y) * motor_limiter / 100;
 	pwm_set_gpio_level(MOTOR_PWM_PIN, val);
 	
 	//printf("Motor PWM: (%d) %d (%.2f%%) EN1: %d EN2: %d STATUS: %d\n", joy_in, val, 100.0*val/31250, gpio_get_out_level(MOTOR_EN_1), gpio_get_out_level(MOTOR_EN_2), dir_stat);
@@ -177,8 +184,6 @@ int main() {
 	motor_init();
 	servo_init();
 	sensor_init();
-	sleep_ms(10000);
-	clock_init();
 
 	multicore_launch_core1(bt_main);
 	// Wait for init (should do a handshake with the fifo here?)
@@ -196,7 +201,7 @@ int main() {
 		motor_dir_status = joystickY2MotorPwm(state.ly, motor_dir_status);
 		joystickX2ServoPwm(state.rx);
 
-		if(state.buttons == 0x2000) {
+		if(state.buttons == 0x2000) { // record data on X
 			rtc_get_datetime(&t);
         	snprintf(datetime_buf, sizeof(datetime_buf), "%d/%d/%d %d:%d:%d", t.month, t.day, t.year, t.hour, t.min, t.sec);
 			int ret = getMeasurement(sens_ptr);
@@ -215,6 +220,8 @@ int main() {
 				stored_data_insert = (stored_data_insert + 1) % RECORDED_POINTS;
 			}
 
+		} if (state.buttons == 0x4000) { // set clock on Circle
+			clock_init();
 		} if (state.hat == 0 && motor_limiter <=98) { // increase max power on up d pad
 			printf("%c", 12);
 			motor_limiter += 2;
@@ -249,9 +256,25 @@ int main() {
 			print_data();
 		} if (state.buttons == 0x0100) { // print out button mapping on PS4
 			printf("%c", 12);
-			printf("----------BUTTON MAPPING----------\n");
-			printf("Left Joystick: Motor\nRight Joystick: Steering\nD Pad:\tUp/Down->Inc/Dec Max Power\n\tRight/Left->Inc/Dec Turning Radius\n");
-			printf("L1: Trim Steering Left\nR1: Trim Steering Right\nShare: Print Recorded Data\nOptions: Print Current Settings\nPS4: Print Button Mapping\n\n");
+			printf("----------INPUT MAPPING----------\n%-20sFunction:", "Input:");
+			printf("%-20sThrottle\n"
+				   "%-20sSteering\n"
+				   "%-20sTrim Throttle\n"
+				   "%-20sTrim Turning Radius\n"
+				   "%-20sTrim Steering Center\n"
+				   "%-20sPrint Recorded Data\n"
+				   "%-20sPrint Button Mapping\n"
+				   "%-20sRecord Data\n"
+				   "%-20sSet Date & Time\n",
+				   "Left Joystick",
+				   "Right Joystick",
+				   "D-Pad Up/Down",
+				   "D-Pad Left/Right",
+				   "L1/R1",
+				   "Share",
+				   "PS4",
+				   "X",
+				   "O");
 		}
 	}
 }
