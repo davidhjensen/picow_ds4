@@ -256,7 +256,7 @@ int main() {
 			print_data();
 		} if (state.buttons == 0x0100) { // print out button mapping on PS4
 			printf("%c", 12);
-			printf("----------INPUT MAPPING----------\n%-20sFunction:", "Input:");
+			printf("----------INPUT MAPPING----------\n%-20sFunction:", "Input:\n");
 			printf("%-20sThrottle\n"
 				   "%-20sSteering\n"
 				   "%-20sTrim Throttle\n"
